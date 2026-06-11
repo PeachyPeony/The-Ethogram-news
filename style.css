@@ -46,10 +46,6 @@ body {
     width: 70%;
 }
 
-/*.nav_logo {
-    max-width: 10%;
-}*/
-
 #logo {
     font-family: 'Calligraffitti', cursive;
     font-style: normal;
@@ -57,7 +53,6 @@ body {
     font-size: 22px;
     line-height: 24px;
     color: black;
-
 }
 
 .nav_bar {
@@ -84,8 +79,21 @@ ul a {
 .main_section1 {
     display: flex;
     justify-content: center;
-    text-align: center;
+    min-height: 100vh;
     background-color: rgb(129, 45, 148);
+}
+
+.news_content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+}
+
+.news_txt1 {
+    max-width: 50%;
+    width: 100%;
+    color: darkblue;
 }
 
 h2 {
@@ -93,8 +101,67 @@ h2 {
     font-size: large;
 }
 
-.btn1 {
-    padding: 2px;
+.txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main_images {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
+
+.images_1 {
+    display: flex;
+    justify-items: flex-start;
+    max-width: 100%;
+}
+
+.dolphins_1 {
+    max-width: 90%;
+}
+
+.images_2 {
+    display: flex;
+    justify-content: end;
+    max-width: 100%;
+}
+
+.dolphins_2 {
+    max-width: 90%;
+}
+
+.buttons {
+    font-family: 'nunito', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    padding: 2%;
     color: palevioletred;
     background-color: black;
+}
+
+.buttons:hover {
+    background-color: darkmagenta;
+    color: darkgrey
+}
+
+.main_section2 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
 }
