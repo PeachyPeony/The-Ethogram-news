@@ -1,16 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
 .header_section {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     min-height: 80vh;
-    background-image: url(images/dolphins-in-water.jpg);
+    background-image: url(images/two\ dolphins.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.nav_section {
+#hero_txt {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Calligraffitti', cursive;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+
+}
+
+.navbar_section {
     background-color: #b89388;
     width: 100%;
 }
@@ -26,4 +44,36 @@
     justify-content: space-around;
     align-items: center;
     width: 70%;
+}
+
+.nav_logo {
+    max-width: 10%;
+}
+
+/*REMEMBER TO LOOK UP HOW TO CHANGE HOW THE LOGO LOOKS*/
+#logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav_bar {
+    max-width: 60%;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul a {
+    font-family: "Calligraffitti", cursive;
 }
