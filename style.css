@@ -46,18 +46,18 @@ body {
     width: 70%;
 }
 
-.nav_logo {
+/*.nav_logo {
     max-width: 10%;
-}
+}*/
 
-/*REMEMBER TO LOOK UP HOW TO CHANGE HOW THE LOGO LOOKS*/
 #logo {
+    font-family: 'Calligraffitti', cursive;
     font-style: normal;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 22px;
     line-height: 24px;
-    text-transform: uppercase;
     color: black;
+
 }
 
 .nav_bar {
@@ -76,4 +76,25 @@ ul {
 
 ul a {
     font-family: "Calligraffitti", cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.main_section1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(129, 45, 148);
+}
+
+h2 {
+    font-family: 'nunito', sans-serif;
+    font-size: large;
+}
+
+.btn1 {
+    padding: 2px;
+    color: palevioletred;
+    background-color: black;
 }
