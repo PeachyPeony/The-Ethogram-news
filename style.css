@@ -163,5 +163,21 @@ h2 {
 .main_section2 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: darkgreen;
+}
+
+.news_content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+    min-height: 70vh;
+}
+
+.news_txt2 {
+    max-width: 50%;
+    width: 100%;
+    color: black;
 }
