@@ -80,6 +80,7 @@ ul a {
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    padding: 1%;
     background-color: rgb(129, 45, 148);
 }
 
@@ -179,5 +180,41 @@ h2 {
 .news_txt2 {
     max-width: 50%;
     width: 100%;
+    color: black;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: seagreen;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_logo {
+    font-family: 'nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 2%;
+}
+
+.footer_links a {
     color: black;
 }
