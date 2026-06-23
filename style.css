@@ -181,6 +181,7 @@ h2 {
 .news_txt2 {
     max-width: 50%;
     width: 100%;
+    margin-top: 7%;
     color: black;
 }
 
@@ -188,10 +189,14 @@ h2 {
 
 .wolfs_1 {
     max-width: 90%;
+    border-radius: 50%;
+    margin-top: 4%;
 }
 
 .wolf {
     max-width: 90%;
+    border-radius: 50%;
+    margin-top: 5%;
 }
 
 .footer_section {
