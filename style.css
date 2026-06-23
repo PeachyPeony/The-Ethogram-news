@@ -103,6 +103,7 @@ h2 {
 }
 
 .txt {
+    font-family: 'nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -151,6 +152,7 @@ h2 {
     line-height: 24px;
     text-align: center;
     border: none;
+    border-radius: 4%;
     padding: 2%;
     color: palevioletred;
     background-color: black;
@@ -171,7 +173,6 @@ h2 {
 
 .news_content2 {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     max-width: 80%;
     min-height: 70vh;
@@ -181,6 +182,16 @@ h2 {
     max-width: 50%;
     width: 100%;
     color: black;
+}
+
+
+
+.wolfs_1 {
+    max-width: 90%;
+}
+
+.wolf {
+    max-width: 90%;
 }
 
 .footer_section {
