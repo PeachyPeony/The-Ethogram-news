@@ -46,6 +46,10 @@ body {
     width: 70%;
 }
 
+.nav_logo a {
+    text-decoration: none;
+}
+
 #logo {
     font-family: 'Calligraffitti', cursive;
     font-style: normal;
