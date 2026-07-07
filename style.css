@@ -89,16 +89,16 @@ ul a {
 }
 
 .news_content1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     max-width: 80%;
+    width: 100%;
+    align-items: center;
 }
 
 .news_txt1 {
-    max-width: 50%;
-    width: 100%;
-    color: darkblue;
+    grid-column: span 2;
 }
 
 h2 {
@@ -115,10 +115,10 @@ h2 {
 }
 
 .main_images {
+    grid-column: span 2;
     display: flex;
     justify-content: center;
-    max-width: 40%;
-    width: 100%;
+
 }
 
 .images {
@@ -168,10 +168,10 @@ h2 {
 }
 
 .main_section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
     background-color: darkgreen;
 }
 
@@ -182,25 +182,21 @@ h2 {
     min-height: 70vh;
 }
 
-.news_txt2 {
-    max-width: 50%;
+.news_card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.news_card img {
     width: 100%;
-    margin-top: 7%;
-    color: black;
+    height: 220px;
+    object-fit: cover;
 }
 
-
-
-.wolfs_1 {
-    max-width: 90%;
-    border-radius: 50%;
-    margin-top: 4%;
-}
-
-.wolf {
-    max-width: 90%;
-    border-radius: 50%;
-    margin-top: 5%;
+.news_card h3 {
+    margin-top: 15px;
 }
 
 .footer_section {
@@ -237,4 +233,49 @@ h2 {
 
 .footer_links a {
     color: black;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+    .news_content1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .news_txt1,
+    .main_images {
+        grid-column: span 2;
+    }
+
+    .main_section2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .news_content1 {
+        grid-template-columns: 1fr;
+    }
+
+    .news_txt1,
+    .main_images {
+        grid-column: span 1;
+    }
+
+    .main_section2 {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar_header {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 }
