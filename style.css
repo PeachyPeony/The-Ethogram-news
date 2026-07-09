@@ -34,8 +34,8 @@ body {
 }
 
 .nav_header {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 .navbar_header {
@@ -197,6 +197,26 @@ h2 {
 
 .news_card h3 {
     margin-top: 15px;
+}
+
+.about_section {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    padding: 60px 20px;
+}
+
+.about_content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about_content h2 {
+    margin-bottom: 20px;
+}
+
+.about_content p {
+    line-height: 1.8;
 }
 
 .footer_section {
