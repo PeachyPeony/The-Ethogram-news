@@ -211,11 +211,14 @@ h2 {
     text-align: center;
 }
 
-.about_content h2 {
+.about_content h4 {
+    font-family: 'nunito', sans-serif;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .about_content p {
+    font-family: 'nunito', sans-serif;
     line-height: 1.8;
 }
 
