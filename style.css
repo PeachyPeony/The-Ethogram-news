@@ -10,30 +10,20 @@ body {
     text-align: center;
     align-items: center;
     min-height: 80vh;
+    /*position: relative;*/
     background-image: url(images/two\ dolphins.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-#hero_txt {
+#hero_txt h1 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: clamp(2rem, 6vw, 3.8rem);
     font-family: 'Calligraffitti', cursive;
     line-height: 24px;
-    letter-spacing: 4.8px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-
-}
-
-
-#logo {
-    font-family: 'Calligraffitti', cursive;
-    font-style: normal;
-    /*font-weight: bold;*/
-    font-size: 22px;
-    line-height: 24px;
-    color: black;
 }
 
 ul {
@@ -241,6 +231,11 @@ h2 {
 
 @media (max-width: 992px) {
 
+    .header_section {
+        min-height: 48vh;
+        background-position: center;
+    }
+
     .news_content1 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -257,6 +252,12 @@ h2 {
 
 /* Mobile */
 @media (max-width: 600px) {
+
+    .header_section {
+        min-height: 30vh;
+        background-position: center;
+    }
+
 
     ul {
         flex-direction: column;
