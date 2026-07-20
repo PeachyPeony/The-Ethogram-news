@@ -53,8 +53,8 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    padding: 1%;
-    background-color: rgb(129, 45, 148);
+    padding: 2%;
+    background-color: #d7d5da;
 }
 
 .news_content1 {
@@ -134,7 +134,11 @@ h2 {
 
 .buttons:hover {
     background-color: darkmagenta;
-    color: darkgrey
+    color: darkgrey;
+}
+
+hr {
+    margin: 0;
 }
 
 .main_section2 {
@@ -142,7 +146,7 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 40px;
-    background-color: darkgreen;
+    background-color: #d7d5da;
 }
 
 .news_content2 {
@@ -172,8 +176,8 @@ h2 {
 .about_section {
     display: flex;
     justify-content: center;
-    background-color: royalblue;
-    padding: 60px 20px;
+    background-color: #d7d5da;
+    padding: 15px 20px;
 }
 
 .about_content {
@@ -196,7 +200,7 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: seagreen;
+    background-color: #d7d5da;
 }
 
 .footer_content {
@@ -217,7 +221,7 @@ h2 {
 
 .footer_links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     font-size: 20px;
     line-height: 24px;
