@@ -32,7 +32,7 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #b89388;
+    background-color: #55d6be;
 }
 
 ul li a {
@@ -42,11 +42,11 @@ ul li a {
     text-align: center;
     font-family: "Calligraffitti", cursive;
     font-size: 20px;
-    color: black;
+    color: #0B070D;
 }
 
 ul li a:hover {
-    background-color: pink;
+    background-color: #acfcd9;
 }
 
 .main_section1 {
@@ -127,14 +127,14 @@ h2 {
     border: none;
     border-radius: 4%;
     padding: 2%;
-    color: palevioletred;
-    background-color: black;
+    color: #0B070D;
+    background-color: #55d6be;
     text-decoration: none;
 }
 
 .buttons:hover {
-    background-color: darkmagenta;
-    color: darkgrey;
+    background-color: #acfcd9;
+    color: #0B070D;
 }
 
 hr {
