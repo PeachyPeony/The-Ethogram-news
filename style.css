@@ -11,13 +11,13 @@ body {
     text-align: center;
     align-items: center;
     min-height: 80vh;
-    background-image: url(images/two\ dolphins.jpg);
+    background-image: url(images/two_dolphins.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-#hero_txt h1 {
+.hero_text h1 {
     font-weight: bold;
     font-size: clamp(2rem, 6vw, 3.8rem);
     font-family: 'Calligraffitti', cursive;
