@@ -79,6 +79,7 @@ All images include descriptive alternative text to improve accessibility.
 - Github Desktop 
 - Github 
 - Mozilla Firefox Developer Tools 
+- Chrome Developer Tools
 
 # Future improvments 
 
@@ -87,3 +88,25 @@ If i had more time i would make these improvments:
 - JavaScript-powered features
 - Search functionality
 - Interactive animations 
+
+# Credits 
+
+## Content
+
+Research information was gathered from: 
+
+- ScienceDirect
+- International Wolf Center
+- Whale Research
+- Amaris Wildlife Sanctuary 
+
+## Fonts
+- Google Fonts 
+
+## Icons 
+
+- Font Awesome 
+
+## Inspiration
+
+This project was inspired by an interest in animal behavior.
